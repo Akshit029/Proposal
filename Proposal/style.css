@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh; /* Ensure container takes up the full height of the viewport */
+    padding: 10px; /* Adjust padding to control spacing */
+}
+
+.container img {
+    width: 30%; /* Adjust image width as needed */
+    max-width: 150px; /* Set maximum width for the image */
+}
+
+.container .text {
+    width: 80%; /* Adjust text width as needed */
+}
+.container button{
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+#button{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    top: 464px;
+    left:  805px;
+    position: absolute;
+    cursor: pointer;
+}
